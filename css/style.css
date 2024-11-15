@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.header-container{
+    background: black;
+    color: white;
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header-uppertexet{
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.header-uppertexet p a{
+    text-decoration: underline;
+}
+
+.close-btn{
+    position: absolute;
+    right: 100px;
+}
+
+.nav-container{
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.nav-logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+form input{
+    width: 650px;
+    height: 40px;
+    border-radius: 50px;
+    background: rgb(0, 0, 0,0.1);
+    outline: none;
+}
+
+input::placeholder{
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-logo{
+    cursor: pointer;
+}
+
+
+

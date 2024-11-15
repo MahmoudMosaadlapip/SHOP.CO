@@ -1,0 +1,143 @@
+.landing-page{  
+    width: 100vw;
+    height: 660px;
+    background-image: url('/images/landingpage-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-top: 40px;
+    position: relative;
+}
+
+.landing-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left: 300px;
+    top: 50px;
+}
+
+.landing-text h1{
+    font-size: 80px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.landing-text p{
+    letter-spacing: 1px;
+    color: rgb(0,0,0,0.7);
+}
+
+.landing-text button{
+    width: 200px;
+    height: 45px;
+    background: black;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.brands-logo{
+    width: 100%;
+    height: 130px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-arrivals{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+}
+
+.new-arrivals h1{
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.card-outercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card-innercontainer{
+    background: white;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img-container{
+    width: 300px;
+    height: 300px;
+    background: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(239,238,236);
+}
+
+.img-container img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.card-innercontainer h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.card-innercontainer p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.new-arrivals button{
+    width: 200px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 2px solid rgb(240, 240, 240);
+    margin-bottom: 50px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.price h2{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(173, 170, 170);
+}
+
+.price span{
+    width: 60px;
+    height: 30px;
+    border-radius: 50px;
+    background: rgb(247, 211, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: red;
+}
